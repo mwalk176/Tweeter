@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".client.view.main.PostStatusDialog">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Post Your Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="24sp"/>
+        <EditText
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:text="What's on your mind?"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:id="@+id/editStatusField" android:textColor="#BF7D7D7D" android:textAlignment="viewStart"
+                android:singleLine="false"/>
+    </LinearLayout>
+
+</FrameLayout>
